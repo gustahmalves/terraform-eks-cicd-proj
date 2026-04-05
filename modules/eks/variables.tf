@@ -7,7 +7,7 @@ variable "project-name" {
 variable "tags" {
   default = {
     "ManagedBy" = "Terraform"
-    "Name"      = "eks-cluster-proj"
+    "Name"      = "eks-proj"
   }
 
 }
