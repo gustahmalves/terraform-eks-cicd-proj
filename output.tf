@@ -4,5 +4,5 @@ output "vpc_config" {
 
 output "oidc_identity" {
   value = module.eks-cluster.oidc_identity
-  
+
 }

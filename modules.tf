@@ -12,6 +12,6 @@ module "eks-cluster" {
 }
 
 module "mng-node-group" {
-    source = "./modules/managed-node-group"
-  
+  source = "./modules/managed-node-group"
+
 }
